@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+title: MAE 4272 Blade Design Project
+description:   The MAE 4272 blade design report presents the full development process for a small-scale wind turbine operating under a Weibull wind distribution. It details geometric constraints, selecting operating speed, aerodynamic reasoning, CAD modeling, and perfomance metrics, along with a preliminary testing protocol designed to evaluate efficiency, structural reliational, and alignment with project requirements. 
+technologies: [Autodesk Fusion, MatLab, LabView VI, Big Blue Wind Tunnel]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
