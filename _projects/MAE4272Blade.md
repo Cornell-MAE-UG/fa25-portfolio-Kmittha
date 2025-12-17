@@ -3,7 +3,7 @@ layout: project
 title: MAE 4272 Blade Design Project
 description:   The MAE 4272 blade design report presents the full development process for a small-scale wind turbine operating under a Weibull wind distribution. It details geometric constraints, selecting operating speed, aerodynamic reasoning, CAD modeling, and perfomance metrics, along with a preliminary testing protocol designed to evaluate efficiency, structural reliational, and alignment with project requirements. 
 technologies: [Autodesk Fusion, MatLab, LabView VI, Big Blue Wind Tunnel]
-image: /assets/images/BladeRender2.png 
+image: /assets/images/BladeRender3.png 
 ---
 
 The goal of this project was to design, fabricate, and test a small-scale wind turbine blade capable of maximizing power output in a controlled wind-tunnel environment. Our team, Group 24, was asked to create a blade that met strict geometric and material constraints - maximum 6 in. radius, maximum 2 in. chord length, and safe operation below allowable torque and stress limit - while optimizing performance at a fixed operating speed of 1200 RPM. The broader purpose was to translate theoretical aerodynamic modeling into a physical prototype and evaluate how closely real performance aligned with Betz-limit predictions. 
