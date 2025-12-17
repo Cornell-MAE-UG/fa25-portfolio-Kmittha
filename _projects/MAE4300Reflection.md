@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
+title: MAE 4300 Final Reflection
+description: The MAE 4300 Final Reflection examines how engineering decisions shape societal outcomes, using the Boeing 737 Max crisis as a case study. It integrates ethics, sustainability, and regulatory frameworks to explore the broader responsibilities of engineering in promoting safety, equity, and public trust across technological systems.
 technologies: [MATLAB, python]
 image: /assets/images/function-graph.png
 ---

@@ -3,23 +3,21 @@ layout: project
 title: MAE 4272 Blade Design Project
 description:   The MAE 4272 blade design report presents the full development process for a small-scale wind turbine operating under a Weibull wind distribution. It details geometric constraints, selecting operating speed, aerodynamic reasoning, CAD modeling, and perfomance metrics, along with a preliminary testing protocol designed to evaluate efficiency, structural reliational, and alignment with project requirements. 
 technologies: [Autodesk Fusion, MatLab, LabView VI, Big Blue Wind Tunnel]
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/BladeRender2.png 
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+The goal of this project was to design, fabricate, and test a small-scale wind turbine blade capable of maximizing power output in a controlled wind-tunnel environment. Our team, Group 24, was asked to create a blade that met strict geometric and material constraints - maximum 6 in. radius, maximum 2 in. chord length, and safe operation below allowable torque and stress limit - while optimizing performance at a fixed operating speed of 1200 RPM. The broader purpose was to translate theoretical aerodynamic modeling into a physical prototype and evaluate how closely real performance aligned with Betz-limit predictions. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Figure 1: Chord/Pitch Angle/Twist Angle Distribution Along Blade
+![Chord/Pitch/Twist Distribution Along Blade]({{ "/assets/images/DistributionAlongBlade.png" | relative_url }}){: style="width: 400px; display: block; margin: 0 auto;"}
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+Our design process centered on developng a blade geometry using Betz-limit blade element theory under idealized assumptions: no wake rotation, isentropic material behavior, and a Weibull-distributed wind speed profile. We selected the NACA 6412 airfoil base geometry for its high lift-to-drag ratio at low Reynolds numbers and used MATLAB to compute chord, pitch, and twist distributions along the blade span. Structural checks were performed by integrating bending moments along the radial elements and comparing to the 58 MPa allowable limit. The final geometry (5 in radius, 1.3 inch max chord) satisfied all constraints and passed structural verification with a maximum predicted stress of 0.239 MPa. 
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Figure 2: Experimental Power v. RPM at 6-10 Hz
+![Experimental Power v. RPM at 6-10 Hz]({{ "/assets/images/PowerversusRPM.png" | relative_url }}){: style="width: 400px; display: block; margin: 0 auto;"}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Testing was conducted in the Cornell wind tunnel across fan frequencies from 6-10 Hz. At each wind speed, torque was incrementally increased using a torque brake untill stall, then decreased to account for hysteresis. Using DAQ-collected torque and RPM data, we generated power curves for each wind speed and cmopared peak performance to theoretical predictions. While the blade operated safely and data collection was consistent, experimental power output (0.048 W) feel significantly below the theoretical 1.528 W, highlighting mechanical losses, aerodynamic inefficiencies, and non-ideal flow behavior not captured in the simplified model.
 
-I was inspired by this old radio when I made this rendering:
+Figure 3: Autodesk Fusion 360 Render of NACA 6412 Optimized Blade
+![Experimental v. Theoretical Power Output at 1200 RPM]({{ "/assets/images/ExversusThPower.png" | relative_url }}){: style="width: 400px; display: block; margin: 0 auto;"}
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
