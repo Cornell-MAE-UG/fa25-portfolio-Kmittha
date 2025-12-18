@@ -3,7 +3,7 @@ layout: project
 title: MAE 4300 Final Reflection
 description: The MAE 4300 Final Reflection examines how engineering decisions shape societal outcomes, using the Boeing 737 Max crisis as a case study. It integrates ethics, sustainability, and regulatory frameworks to explore the broader responsibilities of engineering in promoting safety, equity, and public trust across technological systems.
 technologies: [Python, Google Docs]
-image: /assets/images/function-graph.png
+image: /assets/images/Boeing737Max.png
 ---
 **Holistic Analysis of the Boeing 737 Max Ethical Failure**
 
@@ -17,7 +17,11 @@ Organizational structures and incentives have created an environment where ethic
 
 Missing information and reasonable assumptions also played a role in shaping the risk landscape. Engineers may have raised concerns throughout the development process that were ignored/overriden, given the speed of development and fragmented communication channels. Airlines trusted Boeing's reputation and assumed regulatory rigor, while DERs may have assumed sensor redundancy, and overall these assumptions created information silos and allowed vulnerabilities to propagate unchecked. 
 
+Furthermore, evaluating this case through ASME ethical canons reveal consistent violations. Canon 1, which requires engineers to hold paramount the safety, health, and welfare of the public, was repeatedly deemed secondary to financial and competitive pressures. Canon 7, requiring truthful communication, was comprised when Boeing withheld MCAS details from pilots and FAA regulators. Canon 2, requiring engineers to work within their areas of competence, was violated when DERs approved changes without full technical understanding. Canon 9, which prohibits retaliation among engineers, was undermined by a culture that discouraged whistleblowing. Across all issues, Canon 1 takes precedence, and its violation lies at the center of the Boeing 737 Max case. 
 
+Preventing similar failures requires interventions at multiple levels. Individually, engineers need stronger ethics training, clearer understanding of certification processes, and professional netwroks that support ethical dissent. Organizationally, Boeing must establish independent safety review boards, reduce workload pressures, standardize documentation, and strengthen whistleblower protections. Systemically, the FAA must reduce reliance on manufacturer-delegated certification, coordinate internationally on safety standards, and require periodic ethics training across the industry. These reforms directly address the constraints that enabled the 737 Max failures. 
+
+In conclusion, the Boeing 737 Max crisis was not the result of a single design flaw or isolated misconduct. It was the outcome of a system where tehcnical shortcuts, organizational pressures, regulatory gaps, and cultural failures aligned to undermine the core ethical obligations of engineerings. A holistic analysis shows that this tragedy could have been prevented at multiple points - through better design, clearer communication, and stronger oversight. Ultimately, the case underscores that engineering ethics is not an abstact ideal but a lived responsibility with life-and-death consequences.
 
 **References:**
 
